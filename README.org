@@ -7,6 +7,11 @@ This packages adds a Hangul Shin Sebeol p2 input method in Emacs.
 아직 미숙한 라이브러리입니다. 신세벌식p2의 기본 키맵은 구현되었으나,
 옛한글과 기호 확장 등은 아직 구현이 되어있지 않습니다.
 
+** 신세벌식p2
+
+신세벌식p2 자판은 팥알님이 만드신 한글 입력 자판입니다. 자세한 내용은
+팥알님이 [[https://pat.im/1136][작성하신 글]]에서 확인할 수 있습니다.
+
 ** 설치하기
 
 *** straigt.el
