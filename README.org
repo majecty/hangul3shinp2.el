@@ -9,9 +9,22 @@ This packages adds a Hangul Shin Sebeol p2 input method in Emacs.
 
 ** 설치하기
 
-*** use-package
+*** straigt.el
 
-melpa 리포지토리에서 use-package를 사용해서 설치할 수 있습니다.
+[[https://github.com/raxod502/straight.el][straig.el]]로 설치할 수 있습니다.
+
+#+BEGIN_SRC elisp
+(straight-use-package
+ '(hangul3shinp2
+   :host github
+   :repo "majecty/hangul3shinp2.el"
+   :branch "master"))
+(require 'hangul3shinp2)
+#+END_SRC
+
+*** [등록중] use-package
+
+melpa 리포지토리에서 use-package를 사용해서 설치할 수 있도록 등록 중입니다.
 
 #+BEGIN_SRC elisp
 (use-package hangul3shinp2 :ensure t)
