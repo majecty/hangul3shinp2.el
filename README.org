@@ -1,2 +1,29 @@
-* 이맥스 신세벌식 패키지
+* 이맥스 신세벌식 p2 패키지
+
+This packages adds a Hangul Shin Sebeol p2 input method in Emacs.
+
+** 주의사항
+
+아직 미숙한 라이브러리입니다. 신세벌식p2의 기본 키맵은 구현되었으나,
+옛한글과 기호 확장 등은 아직 구현이 되어있지 않습니다.
+
+** 설치하기
+
+*** use-package
+
+melpa 리포지토리에서 use-package를 사용해서 설치할 수 있습니다.
+
+#+BEGIN_SRC elisp
+(use-package hangul3shinp2 :ensure t)
+#+END_SRC
+
+*** 직접 파일 복사
+
+이 레포지토리에 있는 hangul3shinp2.el 파일을 =load-path= 위치에 복사한
+뒤 =(require 'hangul3shinp2)= 를 호출하여 설치할 수 있습니다.
+
+** 사용하기
+
+다른 입력기의 사용 방법과 같습니다. =M-x set-input-method= 호출 뒤
+=korean-hangul3shinp2= 를 선택하면 됩니다.
 
