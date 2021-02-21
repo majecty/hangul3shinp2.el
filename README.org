@@ -1,4 +1,4 @@
-* 이맥스 신세벌식 p2 패키지
+* 이맥스 신세벌식 P2 패키지
 
 This package adds a Hangul Shin Sebeol p2 input method in Emacs.
 
