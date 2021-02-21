@@ -19,7 +19,7 @@
 ;; Different keys can be the same characters.
 
 ;;; Code:
-(require 'hangul)
+(require 'hangul "quail/hangul")
 
 ;; 87 ~ 90: (- 86) cho map to 1~4 ㄱ ㄲ ㄱㅅ ㄴ
 ;; 97 ~ 122: (- 92) cho map to 5~30
