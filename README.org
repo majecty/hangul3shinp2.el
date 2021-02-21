@@ -21,9 +21,9 @@ https://github.com/demokritos/hangul-s3p2
 
 ** 설치하기
 
-*** straigt.el
+*** straight.el
 
-[[https://github.com/raxod502/straight.el][straig.el]]로 설치할 수 있습니다.
+[[https://github.com/raxod502/straight.el][straight.el]]로 설치할 수 있습니다.
 
 #+BEGIN_SRC elisp
 (straight-use-package
